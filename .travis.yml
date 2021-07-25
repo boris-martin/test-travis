@@ -1,8 +1,8 @@
 language: c++
-addons:
-  apt:
-    packages:
-      - cmake
-      - make
+#addons:
+#  apt:
+#    packages:
+#      - cmake
+#      - make
 
 script: cmake . && make && ./output

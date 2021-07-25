@@ -1,7 +1,10 @@
 #include <iostream>
 
 int main() {
+    auto f = []() {
+        std::cout << "Hello from lambda !" << std::endl;
+    };
 
-    std::cout << "Hello world !" << std::endl;
-    return -1;
+    f();
+    return 0;
 }

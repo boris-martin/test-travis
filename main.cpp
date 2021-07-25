@@ -3,7 +3,7 @@
 
 int main() {
     auto f = []() {
-        Eigen::MatrixXd m(2, 2);
+        Eigen::MatrixXd m(3, 3);
         std::cout << m << std::endl;
         std::cout << "Hello from lambda !" << std::endl;
     };

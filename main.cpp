@@ -9,5 +9,5 @@ int main() {
     };
 
     f();
-    return 1;
+    return 0;
 }

@@ -49,3 +49,8 @@ jobs:
     - name: Testing installed .deb
       run: testpkg
       
+    - name: Uploadgin .deb artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: testpkg_1.0_1_amd64.deb
+        path: ./testpkg_1.0_1_amd64.deb

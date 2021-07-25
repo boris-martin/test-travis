@@ -1,9 +1,0 @@
-language: c++
-dist: focal # Modern packages?
-
-addons:
-  apt:
-    packages:
-      - libeigen3-dev
-
-script: cmake . && make && ./output

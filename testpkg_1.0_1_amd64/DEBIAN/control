@@ -1,0 +1,5 @@
+Package: testpkg
+Version: 1.0
+Architecture: amd64
+Maintainer: Boris Martin <boris.martin.be@gmail.com>
+Description: just a useless package lol

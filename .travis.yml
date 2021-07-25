@@ -1,4 +1,6 @@
 language: c++
+dist: focal # Modern packages?
+
 addons:
   apt:
     packages:

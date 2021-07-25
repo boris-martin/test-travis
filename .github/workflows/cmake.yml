@@ -41,7 +41,7 @@ jobs:
       
     - name: Building .deb for amd64
       working-directory: ${{github.workspace}}
-      run: cp build/output testpkg_1.0_1_amd64/usr/local/bin/testpkg && dpkg-deb --build --root-owner-group ./testpkg_1.0_1_amd64
+      run: mkdir -p testpkg_1.0_1_amd64/usr/local/bin/ && cp build/output testpkg_1.0_1_amd64/usr/local/bin/testpkg && dpkg-deb --build --root-owner-group ./testpkg_1.0_1_amd64
       
     - name: Installing .deb
       run: sudo apt install ./testpkg_1.0_1_amd64.deb -y

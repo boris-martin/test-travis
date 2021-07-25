@@ -1,8 +1,7 @@
 language: c++
-#addons:
-#  apt:
-#    packages:
-#      - cmake
-#      - make
+addons:
+  apt:
+    packages:
+      - libeigen3-dev
 
 script: cmake . && make && ./output
